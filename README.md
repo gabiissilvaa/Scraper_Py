@@ -78,7 +78,7 @@ pip install requests beautifulsoup4
 Para instruções detalhadas de uso, exemplos e informações adicionais, consulte o README específico:
 [`Extrator Notícias`](extrator_noticias.md)
 
-##Observações Gerais
+## Observações Gerais
 - Cada projeto é independente, podendo ser executado separadamente.
 
 - Certifique-se de instalar as dependências específicas de cada projeto antes de executar os scripts.
