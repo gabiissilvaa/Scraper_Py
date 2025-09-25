@@ -1,5 +1,17 @@
 # README - Extrator de Notícias G1 📰
 
+## 📋 Descrição
+---
+Este projeto utiliza **Python** e **BeautifulSoup** para extrair título, data, link e resumo das principais notícias do G1, salvando os dados em um arquivo JSON.
+---
+
+## 🛠 Funcionalidades
+    - Acessa o portal do G1;
+    - Extrai os dados das notícias;
+    - Salva os dados em um arquivo JSON (`noticias_g1.json`).
+
+---
+
 ## 📋 Instruções para Executar
     🔧 Instalar Dependências:
     ```
@@ -7,11 +19,12 @@
     ````
     🚀 Executar o Script:
     ````
-    python noticias_g1.py
+    python extrator_noticias.py
     ````
 
 ## 📦 Dependências Necessárias:
-   -  requests
+    Python 3.8 ou superior
+    requests
     beautifulsoup4
 
 ## 📊 Exemplo de Saída JSON:

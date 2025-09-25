@@ -125,15 +125,16 @@ def main():
     fim = time.time()
     
     if manchetes:
+        output_path = "manchetes.json"
         print("Salvando dados no arquivo manchetes.json...")
-        with open('manchetes.json', 'w', encoding='utf-8') as f:
+        with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(manchetes, f, ensure_ascii=False, indent=2)
         
         tempo_decorrido = fim - inicio
         print(f"Processo concluido com sucesso!")
         print(f"Noticias salvas: {len(manchetes)}")
         print(f"Tempo de execucao: {tempo_decorrido:.2f} segundos")
-        print("Arquivo salvo: manchetes.json")
+        print(f"Arquivo salvo em: {output_path}")
     else:
         print("Nenhuma noticia foi encontrada. Verifique a conexao com a internet.")
 

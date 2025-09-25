@@ -1,86 +1,59 @@
 # Projetos de Automação Python 🐍
 
-Este repositório contém dois projetos distintos de automação em **Python**, cada um com sua funcionalidade específica.  
+Este repositório abriga uma coleção de scripts de automação e web scraping desenvolvidos em **Python**. Cada projeto é focado em uma tarefa específica, desde a extração de dados de redes sociais até a coleta de notícias.
 
 ---
 
-## 1. Extração de Bio do Instagram com Selenium
+## 🚀 Como Executar os Projetos
 
-Este projeto utiliza **Selenium** para automatizar o login no Instagram e extrair a bio de um perfil específico, salvando os dados em um arquivo JSON.  
-
-### Funcionalidades
-
-- Acessa o Instagram e realiza login automático.
-- Lida com a tela de "Salvar informações" após o login.
-- Navega até o perfil desejado.
-- Extrai a bio do usuário, ignorando elementos desnecessários como botões ou contagem de seguidores.
-- Salva os dados em um arquivo JSON (`bio_instagram.json`).  
-
-### Pré-requisitos
-
-- Python 3.8 ou superior
-- Google Chrome instalado
-- Acesso à internet  
-
-### Dependências
+A maneira mais fácil de executar os projetos é através do menu interativo. Navegue até a pasta raiz `projetos_scraper`, baixe as dependências necessárias e, em seguida, execute o `main.py`:
 
 ```bash
-pip install selenium
-pip install webdriver-manager
+cd projetos_scraper
+pip install -r requirements.txt
+python main.py
 ```
 
-## Mais informações
-
-Para instruções detalhadas de uso, exemplos e informações adicionais, consulte o README específico:  
-[`Login Instagram`](bot_instagram.md)
+O menu permitirá que você escolha qual automação deseja rodar.
 
 ---
 
-## 2. Extrator de Notícias do G1 📰
+## 🤖 Projeto 1: Extrator de Biografia do Instagram
 
-Este projeto utiliza **Requests** e **BeautifulSoup** para extrair automaticamente as manchetes do portal G1 e salvar os dados em JSON.
+Este bot utiliza **Selenium** para automatizar o login no Instagram, navegar até um perfil específico e extrair as informações da biografia.
 
-### Funcionalidades
+### ✨ Principais Funcionalidades
+- **Login Seguro**: Realiza login automático utilizando credenciais armazenadas em um arquivo `.env`.
+- **Navegação Automatizada**: Acessa a página do perfil alvo.
+- **Extração Inteligente**: Coleta o texto da biografia, tentando filtrar informações irrelevantes.
+- **Tratamento de Pop-ups**: Lida com as caixas de diálogo de "Salvar informações" e "Ativar notificações".
+- **Saída Estruturada**: Salva os dados extraídos no arquivo `bio_instagram.json`.
+ 
+### 🛠️ Tecnologias e Dependências
+- **Tecnologias**: Python, Selenium.
+- **Dependências**: `selenium`, `webdriver-manager`, `python-dotenv`.
 
-- Extrai título, link, resumo e data de extração das notícias.
-- Salva os dados em `manchetes.json`.
-- Permite analisar rapidamente as últimas notícias do portal G1.
+### 📖 Mais Informações
+Para instruções detalhadas de configuração e uso, consulte o README específico:  
+➡️ **Documentação do Bot do Instagram** 
 
-### Dependências
+## 📰 Projeto 2: Extrator de Notícias do G1
 
-```bash
-pip install requests beautifulsoup4
-```
+Este scraper utiliza **Requests** e **BeautifulSoup** para extrair as principais manchetes da página inicial do portal de notícias G1.
 
-### Exemplo de saída JSON
+### ✨ Principais Funcionalidades
+- **Coleta Rápida**: Acessa o G1 e extrai os dados das notícias sem a necessidade de um navegador.
+- **Extração de Dados**: Captura o título, link e resumo de cada manchete.
+- **Saída Organizada**: Salva a lista de notícias no arquivo `manchetes.json`.
 
-```json
-[
-  {
-    "titulo": "Título da notícia exemplo 1",
-    "link": "https://g1.globo.com/politica/noticia/2024/01/01/exemplo1.html",
-    "resumo": "Resumo da notícia quando disponível...",
-    "data_extracao": "2024-01-01T10:30:45.123456",
-    "site": "G1"
-  },
-  {
-    "titulo": "Título da notícia exemplo 2",
-    "link": "https://g1.globo.com/economia/noticia/2024/01/01/exemplo2.html",
-    "resumo": "Resumo não disponível",
-    "data_extracao": "2024-01-01T10:30:45.123456",
-    "site": "G1"
-  }
-] 
-```
+### 🛠️ Tecnologias e Dependências
+- **Tecnologias**: Python, Requests, BeautifulSoup.
+- **Dependências**: `requests`, `beautifulsoup4`.
 
-## Mais informações
+### 📖 Mais Informações
+Para instruções detalhadas de uso e exemplos, consulte o README específico:
+➡️ **Documentação do Extrator de Notícias**
 
-Para instruções detalhadas de uso, exemplos e informações adicionais, consulte o README específico:
-[`Extrator Notícias`](extrator_noticias.md)
-
-## Observações Gerais
-- Cada projeto é independente, podendo ser executado separadamente.
-
-- Certifique-se de instalar as dependências específicas de cada projeto antes de executar os scripts.
-
-- Para instruções detalhadas, exemplos de saída e informações adicionais, consulte os READMEs individuais listados acima.
+## 📝 Observações Gerais
+- Cada projeto é autocontido em sua respectiva pasta (`projeto_bot` e `projeto_noticias`).
+- Antes de executar um script pela primeira vez, certifique-se de instalar suas dependências.
