@@ -1,8 +1,9 @@
 # Projetos de Automação Python 🐍
+<div align="center">
+ 
+*Este repositório abriga uma coleção de scripts de automação e web scraping desenvolvidos em **Python**. Cada projeto é focado em uma tarefa específica, desde a extração de dados de redes sociais até a coleta de notícias.*
 
-Este repositório abriga uma coleção de scripts de automação e web scraping desenvolvidos em **Python**. Cada projeto é focado em uma tarefa específica, desde a extração de dados de redes sociais até a coleta de notícias.
-
----
+</div>
 
 ## 🚀 Como Executar os Projetos
 
@@ -10,7 +11,11 @@ A maneira mais fácil de executar os projetos é através do menu interativo. Na
 
 ```bash
 cd projetos_scraper
+```
+```bash
 pip install -r requirements.txt
+```
+```bash
 python main.py
 ```
 
@@ -35,7 +40,7 @@ Este bot utiliza **Selenium** para automatizar o login no Instagram, navegar at�
 
 ### 📖 Mais Informações
 Para instruções detalhadas de configuração e uso, consulte o README específico:  
-➡️ **Documentação do Bot do Instagram** 
+➡️ **projetos_scraper/projeto_bot/readme/bot_instagram.md** 
 
 ## 📰 Projeto 2: Extrator de Notícias do G1
 
@@ -52,8 +57,39 @@ Este scraper utiliza **Requests** e **BeautifulSoup** para extrair as principais
 
 ### 📖 Mais Informações
 Para instruções detalhadas de uso e exemplos, consulte o README específico:
-➡️ **Documentação do Extrator de Notícias**
+
+➡️ **projetos_scraper/projeto_noticias/readme/extrator_noticias.md**
 
 ## 📝 Observações Gerais
 - Cada projeto é autocontido em sua respectiva pasta (`projeto_bot` e `projeto_noticias`).
 - Antes de executar um script pela primeira vez, certifique-se de instalar suas dependências.
+
+<br>
+
+### **👨‍💻 Desenvolvedoras**
+
+<div align="center">
+
+**Gabriela Silva**  
+*Cientista da Computação | Desenvolvedora*
+</div>
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF)](https://www.linkedin.com/in/gabrielab-da-silva/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=FF00F6&color:FFF)](https://github.com/gabiissilvaa)
+
+</div>
+
+<div align="center">
+
+**Laísa Albuquerque**  
+*Cientista da Computação | Desenvolvedora*
+</div>
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF)](https://www.linkedin.com/in/laisaalbdev/)
+[![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=FF00F6&color:FFF)](https://github.com/LaisaAlb)
+
+</div>
