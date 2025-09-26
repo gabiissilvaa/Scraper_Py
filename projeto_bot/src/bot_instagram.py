@@ -68,7 +68,7 @@ try:
     dados = {
         "perfil": "computacaounifavip_",
         "bio": bio
-    }
+    }  
 
     with open("bio_instagram.json", "w", encoding="utf-8") as f:
         json.dump(dados, f, indent=4, ensure_ascii=False)
