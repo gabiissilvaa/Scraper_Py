@@ -66,6 +66,19 @@ Para instruções detalhadas de uso e exemplos, consulte o README específico:
 
 <br>
 
+<div align="center">
+
+**Link do Vídeo no Youtube**  
+Aqui está um vídeo da aplicação funcionando 
+</div>
+
+<div align="center">
+  
+[![YouTube](https://img.shields.io/badge/YouTube-000?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://youtu.be/skJlBF1jukc)
+
+<br>
+
+
 ### **👨‍💻 Desenvolvedoras**
 
 <div align="center">
@@ -91,5 +104,7 @@ Para instruções detalhadas de uso e exemplos, consulte o README específico:
   
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF)](https://www.linkedin.com/in/laisaalbdev/)
 [![GitHub](https://img.shields.io/badge/-GitHub-000?style=for-the-badge&logo=github&logoColor=FF00F6&color:FFF)](https://github.com/LaisaAlb)
+
+
 
 </div>
