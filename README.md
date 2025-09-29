@@ -76,9 +76,6 @@ Aqui está um vídeo da aplicação funcionando
   
 [![YouTube](https://img.shields.io/badge/YouTube-000?style=for-the-badge&logo=youtube&logoColor=FF0000)](https://youtu.be/skJlBF1jukc)
 
-<br>
-
-
 ### **👨‍💻 Desenvolvedoras**
 
 <div align="center">
