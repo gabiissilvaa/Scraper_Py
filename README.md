@@ -1,5 +1,6 @@
-# Projetos de Automação Python 🐍
 <div align="center">
+ 
+# Projetos de Automação Python 🐍
  
 *Este repositório abriga uma coleção de scripts de automação e web scraping desenvolvidos em **Python**. Cada projeto é focado em uma tarefa específica, desde a extração de dados de redes sociais até a coleta de notícias.*
 
